@@ -389,9 +389,9 @@
             },
             append_question : function(question_index) {
                 var question_data = self.quiz_data[question_index];
-                var question_container = $('<li class="question_container row-fluid question_' +
+                var question_container = $('<div class="question_container row-fluid question_' +
                         question_index +
-                        '"></li>'
+                        '"></div>'
                 );
                 question_container.append( self.build_question_element_from_row(question_data) );
                 question_container.append( self.build_possible_answer_elements_from_row(question_data, question_index) );
