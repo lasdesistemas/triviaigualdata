@@ -4,7 +4,7 @@
 }
 
 .possible_answer:hover {
-	background: rgba(254, 231, 88, 1);
+	background: #C8A2C8;
 	cursor: pointer;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@
 .how_you_did {
 	text-align: center;
 	padding: 1em;
-	background-color: rgb(254, 231, 88);
+	background-color: #C8A2C8;
 	font-weight: bold;
 	font-size: 1.25em;
 	-webkit-box-shadow: 0px 7px 5px rgba(50, 50, 50, 0.65);
